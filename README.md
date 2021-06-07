@@ -101,7 +101,7 @@
 ![sql-create](https://user-images.githubusercontent.com/42474899/121092453-f2241a80-c7c1-11eb-9084-4c361160fe94.png)
 
 1. Inicialize o mysql e o apache pelo Xampp
-2. Acesse o seguinte link: [mysql](http://localhost/phpmyadmin/index.php?route=/server/sql)
+2. Acesse o seguinte link: [mysql](http://localhost/phpmyadmin/index.php?route=/server/sql) **(O apache e o mysql devem está inicializados)**
 3. Para criar a base de dados e a tabela necessaria insira o código abaixo no mysql e execute
 
 ```
