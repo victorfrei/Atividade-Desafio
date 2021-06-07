@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:h="http://java.sun.com/jsf/html"
+   xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+</h:head>
+
+<h:body>
+   <h:form>
+        <p:dataTable var="usuario" value="#{UsuarioMB.usuarios}">
+              <p:column headerText="Id">
+                   <h:outputText value="#{usuario.id}" />
+              </p:column>
+
+              <p:column headerText="Nome">
+                   <h:outputText value="#{usuario.nome}" />
+              </p:column>
+
+              <p:column headerText="Senha">
+                   <h:outputText value="#{usuario.senha}" />
+              </p:column>
+
+              <p:column headerText="Descrição">
+                   <h:outputText value="#{usuario.descricao}" />
+              </p:column>
+
+              <p:column headerText="Data de Cadastro">
+                   <h:outputText value="#{usuario.dataCadastro}" />
+              </p:column>
+        </p:dataTable>
+
+
+   </h:form>
+</h:body>
+</html>
