@@ -2,29 +2,29 @@
 # Etapas para fazer o projeto funcionar
 
 -[] Configurar um servidor local
-> -[] Xampp
-> -[] Tomcat
+> * -[ ] Xampp
+> * -[ ] Tomcat
 
--[] Configurar o Banco de Dados
-> -[] Mysql
-> -[] Criar uma base de dados e uma tabela
+-[ ] Configurar o Banco de Dados
+> -[ ] Mysql
+> -[ ] Criar uma base de dados e uma tabela
 
-**-[x] Dependências e bibliotecas do java**
-> -[x] Primefaces 5.0
-> -[x] Driver Mysql (mysql-connector-java-5.1.23)
-> -[x] JSF 2.2
+**-[ x ] Dependências e bibliotecas do java**
+> -[ x ] Primefaces 5.0
+> -[ x ] Driver Mysql (mysql-connector-java-5.1.23)
+> -[ x ] JSF 2.2
 
 
 # Como configurar o ambiente para uso
 
-## -[] Configurar um servidor local
+## -[ ] Configurar um servidor local
 
 ### Windows
 
 1. Baixe o [Xampp](https://www.apachefriends.org/pt_br/index.html)
 2. Instale o Xampp com as opções de _Mysql_ e _Tomcat_ selecionadas
 
-> -[x] Xampp
+> -[ x ] Xampp
 
 3. Na pagina do Xampp selecione **Config** do _tomcat_
 4. selecione _tomcat-user.xml_
@@ -85,10 +85,10 @@
 
 ```
 
-> -[x] Tomcat
+> -[ x ] Tomcat
 
 6. Configuração do servidor finalizada
-> ## -[x] Configurar um servidor local
+> -[ x ] Configurar um servidor local
 
 
 
