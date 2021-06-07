@@ -28,6 +28,8 @@
 
 > - [x] Xampp
 
+![tomcat-config](https://user-images.githubusercontent.com/42474899/121092455-f2bcb100-c7c1-11eb-9f0f-765a00899c5c.png)
+
 3. Na pagina do Xampp selecione **Config** do _tomcat_
 4. selecione _tomcat-user.xml_
 5. Substitua todo o texto pelo código abaixo:
@@ -95,6 +97,9 @@
 
 ## 2. - [ ] Configurar o Banco de Dados
 
+
+![sql-create](https://user-images.githubusercontent.com/42474899/121092453-f2241a80-c7c1-11eb-9084-4c361160fe94.png)
+
 1. Inicialize o mysql e o apache pelo Xampp
 2. Acesse o seguinte link: [mysql](http://localhost/phpmyadmin/index.php?route=/server/sql)
 3. Para criar a base de dados e a tabela necessaria insira o código abaixo no mysql e execute
@@ -126,7 +131,13 @@ CREATE TABLE usuario (
 
 # Inicializando o projeto
 
+
+![selecionar-chrome](https://user-images.githubusercontent.com/42474899/121092451-f18b8400-c7c1-11eb-8e42-3c73594562a1.png)
+
+
 1. Selecione o google chrome como navegador (maior compatibilidade)
+
+![selecionar-play](https://user-images.githubusercontent.com/42474899/121092452-f2241a80-c7c1-11eb-816b-3bfa5fe1624e.png)
 
 2. Na IDE (netbeans) selecione executar o arquivo
 
