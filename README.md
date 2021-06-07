@@ -1,36 +1,38 @@
 
 # Etapas para fazer o projeto funcionar
 
-* -[ ] Configurar um servidor local
-> * -[ ] Xampp
-> * -[ ] Tomcat
+### - [ ] Configurações
 
--[ ] Configurar o Banco de Dados
-> * -[ ] Mysql
-> * -[ ] Criar uma base de dados e uma tabela
 
-***-[x] Dependências e bibliotecas do java**
-> * -[x] Primefaces 5.0
-> * -[x] Driver Mysql (mysql-connector-java-5.1.23)
-> * -[x] JSF 2.2
+1. - [ ] Configurar um servidor local
+> - [ ] Xampp
+> - [ ] Tomcat
+
+2. - [ ] Configurar o Banco de Dados
+> - [ ] Criar uma base de dados e uma tabela
+
+3. - [x] Dependências e bibliotecas do java
+> - [x] PrimeFaces 5.0
+> - [x] Driver Mysql (mysql-connector-java-5.1.23)
+> - [x] JSF 2.2
 
 
 # Como configurar o ambiente para uso
 
-## * -[ ] Configurar um servidor local
+## 1. - [ ] Configurar um servidor local
 
 ### Windows
 
 1. Baixe o [Xampp](https://www.apachefriends.org/pt_br/index.html)
 2. Instale o Xampp com as opções de _Mysql_ e _Tomcat_ selecionadas
 
-> * -[x] Xampp
+> - [x] Xampp
 
 3. Na pagina do Xampp selecione **Config** do _tomcat_
 4. selecione _tomcat-user.xml_
 5. Substitua todo o texto pelo código abaixo:
 
-> 
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
@@ -85,12 +87,47 @@
 
 ```
 
-> * -[x] Tomcat
+> - [x] Tomcat
 
 6. Configuração do servidor finalizada
-> * -[x] Configurar um servidor local
+> - [x] Configurar um servidor local
 
 
+## 2. - [ ] Configurar o Banco de Dados
+
+1. Inicialize o mysql e o apache pelo Xampp
+2. Acesse o seguinte link: [mysql](http://localhost/phpmyadmin/index.php?route=/server/sql)
+3. Para criar a base de dados e a tabela necessaria insira o código abaixo no mysql e execute
+
+```
+CREATE DATABASE usuario;
+use usuario;
+
+CREATE TABLE usuario (
+     id INT PRIMARY KEY,
+     nome VARCHAR(30),
+     senha VARCHAR(10),
+     descricao VARCHAR(50),
+     data_cadastro TIMESTAMP
+);
+
+```
+
+> - [x] Criar uma base de dados e uma tabela
+
+4. Configuração do Banco de Dados concluida
+
+> - [x] Configurar o Banco de Dados
 
 
-# Configurar o Banco de Dados
+## Todas as configurações foram feitas
+
+- [x] Configurações
+
+# Inicializando o projeto
+
+1. Selecione o google chrome como navegador (maior compatibilidade)
+
+2. Na IDE (netbeans) selecione executar o arquivo
+
+3. Bons Estudos.
