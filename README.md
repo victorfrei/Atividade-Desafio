@@ -85,10 +85,10 @@
 
 ```
 
-> * -[ x ] Tomcat
+> * -[x] Tomcat
 
 6. Configuração do servidor finalizada
-> * -[ x ] Configurar um servidor local
+> * -[x] Configurar um servidor local
 
 
 
