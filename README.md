@@ -1,7 +1,7 @@
 
 # Etapas para fazer o projeto funcionar
-
-### - [ ] Configurações
+###
+- [ ] Configurações
 
 
 1. - [ ] Configurar um servidor local
@@ -31,7 +31,7 @@
 ![tomcat-config](https://user-images.githubusercontent.com/42474899/121092455-f2bcb100-c7c1-11eb-9f0f-765a00899c5c.png)
 
 3. Na pagina do Xampp selecione **Config** do _tomcat_
-4. selecione _tomcat-user.xml_
+4. selecione **_tomcat-user.xml_**
 5. Substitua todo o texto pelo código abaixo:
 
 
@@ -95,7 +95,8 @@
 > - [x] Configurar um servidor local
 
 
-## 2. - [ ] Configurar o Banco de Dados
+## 2. 
+- [ ] Configurar o Banco de Dados
 
 
 ![sql-create](https://user-images.githubusercontent.com/42474899/121092453-f2241a80-c7c1-11eb-9084-4c361160fe94.png)
