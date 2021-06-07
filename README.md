@@ -88,10 +88,11 @@
 
 
 ```
+6. Ative o _tomcat_ no Xampp
 
 > - [x] Tomcat
 
-6. Configuração do servidor finalizada
+7. Configuração do servidor finalizada
 > - [x] Configurar um servidor local
 
 
