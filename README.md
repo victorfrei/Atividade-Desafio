@@ -129,14 +129,20 @@ CREATE TABLE usuario (
 
 ## 3. Dependências e bibliotecas do java
 
+![netbeans-plugins](https://user-images.githubusercontent.com/42474899/121787877-a5ec2800-cb7d-11eb-92f1-fada2c67a573.png)
+
 1. No IDE netbeans(8.2 versão utilizada), selecione *Meu Netbeans* e em seguida *Instalar Plugins*
 
+![plugins-to-install](https://user-images.githubusercontent.com/42474899/121787878-a71d5500-cb7d-11eb-8f47-dadf74d4fe16.png)
+
 2. Na pagina de plugins, selecione os seguintes plugins *JSF*,*Primefaces* e *Java EE base*
+
+![reiniciar-ide-e-finalizar](https://user-images.githubusercontent.com/42474899/121787879-a71d5500-cb7d-11eb-837a-a687f690b7f0.png)
 
 3. no final da instalação selecione *reiniciar agora* e aperte o botão finalizar
 
 4. configuração do netbeans realizada
-> [x] Dependências e bibliotecas do java
+> - [x] Dependências e bibliotecas do java
 
 ## Todas as configurações foram feitas
 
