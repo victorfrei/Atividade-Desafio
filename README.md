@@ -11,10 +11,10 @@
 2. - [ ] Configurar o Banco de Dados
 > - [ ] Criar uma base de dados e uma tabela
 
-3. - [x] Dependências e bibliotecas do java
-> - [x] PrimeFaces 5.0
-> - [x] Driver Mysql (mysql-connector-java-5.1.23)
-> - [x] JSF 2.2
+3. - [ ] Dependências e bibliotecas do java
+> - [ ] PrimeFaces 5.0
+> - [ ] Driver Mysql (mysql-connector-java-5.1.23)
+> - [ ] JSF 2.2
 
 
 # Como configurar o ambiente para uso
@@ -125,6 +125,18 @@ CREATE TABLE usuario (
 
 > - [x] Configurar o Banco de Dados
 
+
+
+# 3. Dependências e bibliotecas do java
+
+1. No IDE netbeans(8.2 versão utilizada), selecione *Meu Netbeans* e em seguida *Instalar Plugins*
+
+2. Na pagina de plugins, selecione os seguintes plugins *JSF*,*Primefaces* e *Java EE base*
+
+3. no final da instalação selecione *reiniciar agora* e aperte o botão finalizar
+
+4. configuração do netbeans realizada
+> [x] Dependências e bibliotecas do java
 
 ## Todas as configurações foram feitas
 
