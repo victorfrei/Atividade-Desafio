@@ -127,7 +127,7 @@ CREATE TABLE usuario (
 
 
 
-# 3. Dependências e bibliotecas do java
+## 3. Dependências e bibliotecas do java
 
 1. No IDE netbeans(8.2 versão utilizada), selecione *Meu Netbeans* e em seguida *Instalar Plugins*
 
